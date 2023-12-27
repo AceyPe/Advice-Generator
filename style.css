@@ -1,0 +1,87 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+
+:root{
+    --light-cyan:hsl(193, 37%, 88%);
+    --neon-green: #55feaf;
+
+
+    --greyish-blue: #3d4858; 
+    --dark-grayish-blue: #252c38;
+}
+
+*{
+    padding:0;
+    margin:0;
+    font-family: "Manrope", sans-serif;
+    top:50%;
+    right:50%;
+}
+
+body{
+    background-color: var(--dark-grayish-blue);
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    background-color: var(--greyish-blue);
+    padding: 30px 50px;
+    border-radius: 10px;
+    width:fit-content;
+    height:fit-content;
+    max-width:300px;
+    margin:auto 20px;
+}
+
+.advice-id{
+    color: var(--neon-green);
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing:10px;
+    font-size: 22px;
+}
+
+
+.advice-text{
+    margin: 10px;
+    font-size: 20px;
+    width:100%;
+    color:var(--light-cyan);
+    text-align: center;
+}
+
+.divider{
+    margin: 20px 0 30px;
+    background-size: 100%, 100%;
+    width:100%;
+}
+
+#dice{
+    background-color:var(--neon-green);
+    border-radius: 50%;
+    padding: 15px 16px 12px;
+    border:0;
+    cursor:pointer;
+    margin:0 auto -50px;
+}
+
+#dice:hover{
+    box-shadow: 0 0 40px var(--Neon-Green)
+    
+}
+
+#dice:hover img{
+    transform:scale(1.3) rotate(5deg);
+}
+
+#dice:active img{
+    transform: rotate(175deg);
+}
+
+.all{
+    display:flex;
+    justify-content: center;
+    padding-top: 200px;
+}
