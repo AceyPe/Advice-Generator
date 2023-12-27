@@ -3,12 +3,12 @@
 
 
 :root{
-    --light-cyan:hsl(193, 37%, 88%);
-    --neon-green: #55feaf;
+    --Light-Cyan:hsl(193, 37%, 88%);
+    --Neon-Green: #55feaf;
 
 
-    --greyish-blue: #3d4858; 
-    --dark-grayish-blue: #252c38;
+    --Greyish-Blue: #3d4858; 
+    --Dark-Grayish-Blue: #252c38;
 }
 
 *{
@@ -20,13 +20,13 @@
 }
 
 body{
-    background-color: var(--dark-grayish-blue);
+    background-color: var(--Dark-Grayish-Blue);
 }
 
 main{
     display:flex;
     flex-direction: column;
-    background-color: var(--greyish-blue);
+    background-color: var(--Greyish-Blue);
     padding: 30px 50px;
     border-radius: 10px;
     width:fit-content;
@@ -36,7 +36,7 @@ main{
 }
 
 .advice-id{
-    color: var(--neon-green);
+    color: var(--Neon-Green);
     text-align: center;
     text-transform: uppercase;
     word-spacing:10px;
@@ -48,7 +48,7 @@ main{
     margin: 10px;
     font-size: 20px;
     width:100%;
-    color:var(--light-cyan);
+    color:var(--Light-Cyan);
     text-align: center;
 }
 
@@ -59,7 +59,7 @@ main{
 }
 
 #dice{
-    background-color:var(--neon-green);
+    background-color:var(--Neon-Green);
     border-radius: 50%;
     padding: 15px 16px 12px;
     border:0;
@@ -68,7 +68,7 @@ main{
 }
 
 #dice:hover{
-    box-shadow: 0 0 40px var(--Neon-Green)
+    box-shadow: 0px 0px 40px var(--Neon-Green);
     
 }
 
